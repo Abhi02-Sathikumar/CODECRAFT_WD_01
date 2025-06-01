@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+font-family: Raleway;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  position: fixed;
+  width: 1300px;
+  float: left;
+  height: 80px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.options{
+  float: left;
+}
+
+.options a {
+	float: left;
+	justify-content: space-between;
+	padding-left: 90px;
+	padding-right: 130px;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+ }
+
+.options a:hover {
+  background-color:red;
+}
+
+.logo{
+	height: 80px;
+	margin-right: 10px;
+	float: left;
+}
+
+body{
+	background-image: url("bg.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.text-section{
+	width: 1200px;
+	color:black;
+	margin-top: 100px;
+	text-align: justify;
+	background-color:  rgba(255, 255, 255, 255);
+	border-radius: 10px;
+	margin-left: 40px;
+	padding-left: auto;
+	padding-right: auto;
+}
+
+
+.image1{
+	width: 800px; 
+	float: center; 
+	margin-right: 20px;
+	padding-left: 250px;
+	margin-top: 100px;
+}
+
+.header{
+	margin-bottom: 50px;
+	padding-bottom: 50px;
+}
+
+body.scrolled nav {
+  background-color: rgba(0, 0, 0, 0.9); 
+  transition: background-color 0.3s ease;
+}
+
+body.scrolled nav a {
+  color: blue;
+  transition: background-color 0.3s ease-out;
+}
+
+body.logos .logo{
+	height: 0px;
+}
